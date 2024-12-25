@@ -57,4 +57,4 @@ public class Salary {
 
 }
 
-
+//ini ngetes aja
