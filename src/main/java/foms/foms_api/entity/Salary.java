@@ -48,7 +48,7 @@ public class Salary {
     @Column(name = "created_at")
     private String createdAt;
 
-    @Column(name = "created_at")
+    @Column(name = "updated_at")
     private String updatedAt;
 
     @ManyToOne

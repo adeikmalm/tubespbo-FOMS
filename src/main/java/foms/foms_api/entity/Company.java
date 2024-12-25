@@ -29,15 +29,8 @@ public class Company {
     @Column(name = "created_at")
     private String createdAt;
 
-    @Column(name = "created_at")
+    @Column(name = "updated_at")
     private String updatedAt;
-
-    @OneToMany(mappedBy = "company", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<Employee> employees;
-
-    @OneToMany(mappedBy = "position", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<Position> positions;
-
 }
 
 
